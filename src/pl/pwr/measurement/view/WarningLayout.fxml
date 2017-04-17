@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="background-1" alignment="CENTER" prefHeight="100.0" prefWidth="350.0" stylesheets="/pl/pwr/measurement/view/subStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.measurement.controller.WarningController">
+   <children>
+      <Label text="Przed uruchomieniem skonfiguruj program!">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+      <Button fx:id="okButton" mnemonicParsing="false" text="OK" />
+   </children>
+</VBox>
